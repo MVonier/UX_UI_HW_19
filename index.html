@@ -20,10 +20,21 @@
       </ul>
     </nav>
   </header>
-  
+
 </body>
 
-<section class="heroImg"> 
+<section> 
+<div class="bg-video-wrap">
+  <video src="images/hero-video.mp4" loop muted autoplay>
+  </video>
+  <div class="overlay">
+  </div>
+<div class="arrow">
+  <a href="#hero-img" class="scroll-down" address="true"></a>
+</div>
+</section>
+
+<section id="hero-img" class="heroImg"> 
   <div class="content">
    <img src="images/marcus-vonier-photo-for-homepage.png" alt="Marcus Vonier's headshot">
           </div>
@@ -33,7 +44,7 @@
 </section>
 
 <!-- My UX Skills section code using CMS flex -->
- <section class="mySkills">
+ <section id="my-skills" class="mySkills">
   <h1>My UX Skills</h1>
   <div class="flex-container">
     <div class="flex-card">
@@ -55,21 +66,24 @@
 </section>
 
 <section class="myWork">
-  <h1>My Work</h1>
-  <div class="workGird">
-    <div class="work-card">
+  <h1 class="heading">My Work</h1>
+  <div class="workGrid">
+    <div class="img1">
       <img src="images/Rectangle-325.png">
+    </div>
+    <div class="content1">
       <h3>Describing my work here, Lorem ipsum dolor sit amet</h3>
       <p>Details about how I do this thing. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       <button type="button">Click Me!</button>
     </div>
-    <div class="work-card">
+    <div class="img2">
       <img src="images/Rectangle-336.png">
+    </div>
+    <div class="content2">
       <h3>Describing my skill here, Lorem ipsum dolor sit amet</h3>
       <p>Details about how I do this thing. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       <button type="button">Click Me!</button>
     </div>
-    <h3>View All Projects</h3>  
   </div>
 </section>
 
@@ -83,5 +97,5 @@
       </div>
     </ul>
   </footer>
-
+  <script src="js/index.js"></script>
 </html>
